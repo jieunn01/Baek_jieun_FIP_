@@ -506,16 +506,18 @@ a
 	#desktop-content h2
 	{
 		display: block;
+		line-height: 35px;
 		color: #fff;
 		font-family: 'Abril Fatface', Helvetica, sans-serif;
-		font-size: 33px;
+		font-size: 30px;
 	}
 
 	#desktop-content p
 	{
 		display: block;
 		margin-left: 28px;
-		line-height: 21px;
+		line-height: 26px;
+		margin-top: 20px;
 		width: 85%;
 		font-size: 16px;
 		color: #fff;
@@ -531,9 +533,11 @@ a
 		font-size: 25px;
 		line-height: 30px;
 	}
+
 	#guideCon
 	{
 		margin:  50px;
+		margin-top: 20px;
 /*		justify-content: space-around;*/
 	}
 	.guideBox 
