@@ -591,3 +591,124 @@ a
 		font-size: 12px;
 	}
 }
+
+
+/*About Us page */
+
+.titleHeader{
+	display: none;
+}
+
+#LogoT{
+	display: none;
+}
+
+#desc-1 {
+	margin-top: 20px;
+}
+
+#desc-1 p
+{
+	padding: 20px 30px 20px 30px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#desc-2 p {
+	padding: 20px 30px 20px 30px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+@media screen and (min-width: 768px){
+
+	.titleHeader
+	{
+		display: block;
+		font-size: 20px;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: #2c2b7b;
+	}
+
+	#LogoT{
+		margin-top: 20px;
+		display: block;
+		width: 229px;
+		margin: 0 auto;
+	}
+
+	#monks
+	{
+		display: block;
+		width: 599px;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	#desc-1 p, #desc-2 p
+	{
+		padding: 25px 85px 25px 85px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	#sketch
+	{
+		display: block;
+		width: 599px;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 1140px){
+
+	.titleHeader
+	{
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 28px;
+		margin-bottom: 50px; 
+	}
+	#LogoT
+	{
+		width: 370px;
+	}
+	#desc-1 
+	{
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+	#desc-1 p, #desc-2 p
+	{
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	#monks
+	{
+		width: 500px;
+		height: 223px;
+		margin-right: 40px;
+	}
+
+	#desc-2
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	#sketch
+	{
+		margin-left: 40px;
+	}
+
+}
+	
