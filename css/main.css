@@ -1,0 +1,589 @@
+@font-face {
+    font-family: 'mulisemibolditalic';
+    src: url('../fonts/muli-semi-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/muli-semi-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('../fonts/muli-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/muli-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('../fonts/muli-webfont.woff2') format('woff2'),
+         url('../fonts/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*font-family: 'Abril Fatface', Helvetica, sans-serif;*/
+img, embed, object, video 
+{
+  max-width: 100%; 
+}
+
+html 
+{
+  box-sizing: border-box; 
+}
+
+*, *::before, *::after 
+{
+  box-sizing: inherit; /*box sizing border box*/
+}
+
+/*General Rules for Elements*/
+
+body
+{
+	background-color: #fff;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+a
+{
+	text-decoration: none; /*remove underline*/
+	transition: all .1s linear;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#container 
+{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+/*nav*/
+#mainHeader 
+{	
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#mainNav
+{
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+#burgerCon
+{
+	margin-top: 15px;
+	display: none;
+}
+
+ #burgerCon.slideToggle 
+{
+  display: block; 
+}
+
+ #mainNav button 
+{
+  background: url(../images/burger_menu.svg) center no-repeat;
+  border: 0px;
+  width: 24px;
+  height: 17px;
+  transition: all 400ms ease; 
+}  
+
+ #mainNav button.expanded 
+ {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); 
+ }
+
+ #mainNav li a 
+{
+  display: block;
+  background-color: #2c2b7b;
+  color: #fff;
+  padding: 20px 0 20px 0;
+  text-align: center; 
+}
+
+#mainNav li
+{
+	font-family: 'muliregular', "Helvetica", sans-serif;
+	font-size: 17px;
+	border-bottom: 0.5px solid #fff;
+}
+
+#mainNav li a:hover
+{
+	background-color: #3D3BA8;
+}
+
+#logo
+{
+	display: block;
+	max-width: 99px;
+	margin: 0 auto;
+}
+
+.contentBox
+{
+	display: none;
+}
+
+/*hero*/
+
+#desktop-content
+{
+	display: none;
+}
+#hero
+{
+	background: url(../images/hero-m.gif) center no-repeat;
+	height: 272px;
+	margin-top: 20px;
+	background-size: cover;
+}
+
+#hero h2
+{
+	font-family: 'Abril Fatface', Helvetica, sans-serif;
+	font-size: 23px;
+	color: #fff;
+	line-height: 26px;
+	padding: 158px 30px 0px 30px;
+}
+
+#learnMore
+{
+	font-family: 'mulisemibolditalic', "Helvetica", sans-serif;
+	display: block;
+	color: #fff;
+	width: 83px;
+	height: 23px;
+	background-color: #2c2b7b;
+	padding: 4px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#welcomepara p:before {
+  display: block;
+  margin: 10px auto 0 auto;
+  content: "***";
+  color: #2c2b7b;
+  margin-top: 20px;
+}
+
+#welcomepara p 
+{
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+	margin: 0 30px 0 30px;
+}
+
+#welcomepara p:after {
+  display: block;
+  margin: 10px auto 0 auto;
+  content: "***";
+  color: #2c2b7b;
+}
+
+.ask
+{
+	margin-top: 23px;
+}
+
+.ask h2
+{
+	font-family: 'Abril Fatface', Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	line-height: 20px;
+}
+
+#guideCon
+{
+	padding-bottom: 1px;
+}
+.guideBox
+{
+	margin-top: 20px;
+	/*set to relative so servicesBorderBox uses its tl corner instead of browser */
+	position: relative;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.guideBox section img
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.parabox
+{
+	width: 280px;
+	height: 95px;
+	background-color: #fff;
+	position: absolute;
+	top: 216px;
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto;
+  	padding: 10px 10px 10px 10px;
+  	border-radius: 5px;
+}
+
+#brandBox, #advertsBox, #productsBox, #contactsBox
+{
+	height: 25px;
+	margin-bottom: 20px;
+}
+
+#brandBox, #advertsBox, #productsBox, #contactsBox h2
+{
+	font-family: 'Abril Fatface', Helvetica, sans-serif;
+	font-size: 20px;
+	color: #e5891a;
+}
+
+#mainFooter
+{
+	margin-top: 34px;
+	background-color: #2c2b7b;
+	height: 138px;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+#iconCon
+{
+	display: inline-block;
+	width: 114px;
+}
+
+#twlogo, #fblogo, #instalogo, #sharelogo
+{
+	width: 24px;
+	height: 24px;
+	margin-right: 2px;
+	margin-top: 17px;
+}
+
+#mainFooter p
+{
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+#mainFooter h5
+{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+
+@media screen and (min-width: 768px){
+	
+	#mainHeader
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	#logoCon
+	{
+		order: -1;
+		margin-top: 10px;
+		width: 113px;
+	}
+	#logo
+	{
+		margin: 0;
+		display: inline;
+		max-width: 113px;
+	}
+
+	#burgerCon
+	{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	#button
+	{
+		display: none;
+	}
+
+	#mainNav
+	{
+		margin-left: auto;
+		text-align: right;
+	}
+
+	#mainNav li
+	{
+		margin-left: 30px;
+		display: inline;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		font-size: 17px;
+	}
+
+	#mainNav li:first-child
+	{
+		margin-left: 0;
+	}
+
+	#mainNav li a
+	{
+		display: inline;
+		color: black;
+		background-color: #fff;
+	}
+
+	#mainNav li a:hover
+	{
+		color: #3D3BA8;
+		background-color: transparent;
+	}
+
+	#burgerCon
+	{
+		margin-top: 90px;
+	}
+
+	#hero
+	{
+		height: 432px;
+	}
+	#hero img
+	{
+		background: url(../images/hero-los.gif) no-repeat center;
+	}
+
+	#hero h2
+	{
+		font-size: 45px;
+		line-height: 61px;
+	}
+
+	#learnMore
+	{
+		width: 149px;
+		height: 41px;
+		font-size: 18px;
+		padding: 12px;
+		margin-top: 20px;
+	}
+
+	#welcomepara 
+	{
+		margin: 0 auto;
+	}
+	#welcomepara p
+	{
+		align-items: center;
+		margin: 0 auto;
+		width: 545px;
+	 	font-size: 16px;
+	 	line-height: 21px;
+	}
+
+	.ask h2
+	{
+		font-size: 19px;
+		line-height: 23px;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+	}
+
+	#guideCon
+	{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.guideBox
+	{
+		flex: 1 1 285px;
+		margin-bottom: 20px;
+	}
+
+	.parabox
+	{
+		width: 80%;
+		top: 70%;
+		height: 88px;
+	}
+
+	.parabox p
+	{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	#brandBox, #advertsBox, #productsBox, #contactsBox
+	{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+}
+@media screen and (min-width: 856px){
+
+	.parabox
+	{
+		max-width:380px;
+	}
+
+}
+@media screen and (min-width: 1140px){
+
+	#logoCon
+	{
+		width: 157px;
+	}
+	#logo
+	{
+		max-width: 157px;
+	}
+
+	#mainNav li
+	{
+		font-size: 22px;
+	}
+
+	#mainNav li a:hover
+	{
+		color: #3D3BA8;
+		background-color: transparent;
+	}
+	#hero
+	{
+		display: flex;
+		height: 403px;
+		background: 0;
+		background: url(../images/hero-los.gif) no-repeat center;
+		background-size: cover;
+	}
+
+	#hero h2 
+	{
+		display: none;
+	}
+
+	#learnMore
+	{
+		display: none;
+	}
+
+	#desktop-content
+	{
+		display: block;
+		background-color:rgb(44, 43, 123, 0.6);
+		width: 440px;
+		margin-left: 20px;
+	}
+
+	#desktop-content h2
+	{
+		display: block;
+		color: #fff;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		font-size: 33px;
+	}
+
+	#desktop-content p
+	{
+		display: block;
+		margin-left: 28px;
+		line-height: 21px;
+		width: 85%;
+		font-size: 16px;
+		color: #fff;
+	}
+
+	#welcomepara 
+	{
+		display: none;
+	}
+
+	.ask h2
+	{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	#guideCon
+	{
+		margin:  50px;
+/*		justify-content: space-around;*/
+	}
+	.guideBox 
+	{
+		flex: 0 1 495px;
+	}
+	.parabox 
+	{
+		margin-left: 50px;
+		max-width: 380px;
+		height: 120px;
+	}
+
+	.parabox p
+	{
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	#brandBox, #advertsBox, #productsBox, #contactsBox h2
+	{
+		font-size: 28px;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+
+	#mainFooter
+	{
+		height: 144px;
+		align-items: center;
+		text-align: center;
+		color: #fff;
+	}
+
+	#iconCon
+	{
+		display: inline-block;
+		width: 114px;
+	}
+
+
+	#mainFooter p
+	{
+		margin-top: 8px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	#mainFooter h5
+	{
+		font-size: 12px;
+	}
+}
