@@ -194,6 +194,7 @@ a
 	font-size: 12px;
 	line-height: 14px;
 	margin: 0 30px 0 30px;
+	color: #3c3b3b;
 }
 
 #welcomepara p:after {
@@ -249,6 +250,8 @@ a
   	margin-right: auto;
   	padding: 10px 10px 10px 10px;
   	border-radius: 5px;
+  	color: #3c3b3b;
+
 }
 
 #brandBox, #advertsBox, #productsBox, #contactsBox
@@ -612,12 +615,14 @@ a
 	padding: 20px 30px 20px 30px;
 	font-size: 12px;
 	line-height: 14px;
+	color: #3c3b3b;
 }
 
 #desc-2 p {
 	padding: 20px 30px 20px 30px;
 	font-size: 12px;
 	line-height: 14px;
+	color: #3c3b3b;
 }
 
 @media screen and (min-width: 768px){
@@ -709,6 +714,201 @@ a
 	{
 		margin-left: 40px;
 	}
+}
+
+/*products page*/
+input
+{
+	height: 42px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+	border:3px solid #2c2b7b;
+	border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#buyArea
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+#products-main img, #newCon
+{
+	display: none;
+}
+
+.buyCon
+{
+	width: 221px;
+/*	height: 344px;*/
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.buyCon img
+{
+	display: block;
+	width: 80%;
+	height: 69%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+.buyCon h2, h3
+{
+	font-size: 20px;
+	font-family: 'Abril Fatface', Helvetica, sans-serif;
+	line-height: 30px;
+}
+
+.buyCon h3
+{
+	color: #e5891a;
+}
+
+#buttons
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.buyButton
+{
+	display: block;
+	width: 100px;
+	height: 42px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #2c2b7b;
+	color: #fff;
+	border-style: none;
+}
+
+
+.buyCon p
+{
+	display: none;
+}
+
+@media screen and (min-width: 500px){
+
+	.buyCon p
+	{
+		display: block;
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 26px;
+		color: #3c3b3b;
+	}
+
+	.buyCon img
+	{
+		width: 60%;
+		height: 38%;
+	}
+}
+
+@media screen and (min-width: 1140px){
+	#products-main img, #newCon
+	{
+		display: block;
+	}
+
+	#products-main 
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#products-main img
+	{
+		width: 280px;
+		height: 336px;
+		margin-left: 90px;
+	}
+
+	#newCon 
+	{
+		background-color: #e5891a;
+		clip-path: polygon(28% 0, 100% 0%, 100% 100%, 24% 99%, 0 49%);
+		width: 767px;
+		height: 315px;
+		margin-top: 20px;
+		padding: 50px;
+		padding-left: 250px;
+	}
+
+	#newCon h2
+	{
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		color: #2c2b7b;
+		font-size: 44px;
+		margin-left
+	}
+
+	#newCon h3
+	{
+		font-family: 'mulisemibold', Helvetica, sans-serif;
+		font-size: 18px;
+		margin-top: 30px;
+		color: #2c2b7b;
+	}
+
+	.buyCon 
+	{	
+		width: 300px;
+	}
+
+	.buyCon img
+	{
+		width: 270px;
+		height: 340px;
+	}
+
+	.buyCon h2
+	{
+		font-size: 21px;
+		margin-top: 10px;
+	}
+	.buyCon h3
+	{
+		font-size: 21px;
+		margin-top: 10px;
+	}
+
+	#buttons 
+	{
+		margin-top: 10px;
+	}
 
 }
+
+@media screen and (min-width: 1140px){
+
+	.buyCon 
+	{
+		width: 320px;
+	}
+
+	.buyCon img
+	{
+		width: 250px;
+		height: 320px;
+	}
+}
+
+/*adverts page*/
+
+
+
+
+
 	
