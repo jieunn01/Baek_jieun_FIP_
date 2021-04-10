@@ -859,8 +859,9 @@ input
 	{
 		font-family: 'mulisemibold', Helvetica, sans-serif;
 		font-size: 18px;
-		margin-top: 30px;
+		margin-top: 25px;
 		color: #2c2b7b;
+		line-height: 25px;
 	}
 
 	.buyCon 
@@ -944,6 +945,7 @@ input
 
 	#iceBear{
 		display: flex;
+		flex-shrink: 1;
 		flex-direction: row-reverse;
 		margin-top: 20px;
 	}
@@ -1043,5 +1045,148 @@ input
 		margin-left: 15%;
 	}
 }
+
+/*contact page*/
+
+#messageCon
+{
+	display: none;
+}
+
+#contactInfo h2
+{
+	display: none;
+}
+#call
+{
+	margin-top: 20px;
+}
+#contactInfo p, #messageCon p
+{
+	display: block;
+	width: 300px;
+	margin-top: 10px;
+	padding: 10px;
+	line-height: 18px;
+	font-family: 'mulisemibold', Helvetica, sans-serif;
+}
+
+#iconCon2
+{
+	margin-left: 10px;
+}
+
+@media screen and (min-width: 543px){
+
+	#contactInfo p, #messageCon p
+	{	
+		font-size: 14px;
+		line-height: 18px;
+		font-family: 'muliregular', Helvetica, sans-serif;
+	}
+}
+
+@media screen and (min-width: 570px){
+
+	#call
+	{	
+		display: none;
+	}
+
+	#contactCon
+	{
+		display: flex;
+		margin: 0 auto;
+		flex-direction: row;
+		margin-top: 20px;
+	}
+	#messageCon
+	{
+		display: block;
+		padding: 10px;
+	}
+
+	#contactInfo
+	{
+		padding: 10px;
+		display: block;
+	}
+	#contactInfo h2, #messageCon h2
+	{
+		display: block;
+		font-size: 16px;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+	}
+
+	.submit-form
+	{
+		background-color: #2c2b7b;
+		width: 325px;
+		color: #fff;
+		font-size: 13px;
+		margin-top: 10px;
+		border-radius: 5px;
+		margin: 0 auto;
+	}
+
+	#name, #phone, #email-address, #message, #area
+	{
+		width: 293px;
+		height: 25px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: left;
+		border-radius: 5px;
+	}
+	.label2, #area, #select
+	{
+		margin-left: 15px;
+		margin-top: 5px;
+	}
+	#message
+	{
+		height: 143px;
+	}
+	#submit-btn
+	{
+		width: 65px;
+		height: 23px;
+		background-color: #fff;
+		color: #2c2b7b;
+		font-size: 16px;
+		border-radius: 5px;
+		border-style: none;
+		padding: 5px;
+		margin-top: 5px;
+		margin-left: 240px;
+		margin-bottom: 20px;
+		padding: 3px;
+	}
+
+	::-webkit-input-placeholder { 
+  	font-size: 14px;}
+	::-moz-placeholder { 
+  	font-size: 14px;}
+}
+
+@media screen and (min-width: 1140px){
+	#contactInfo h2, #messageCon h2
+	{
+		font-size: 23px;
+	}
+
+	#messageCon p
+	{
+		width: 500px;
+		margin:20px;
+	}
+
+	#map
+	{
+		width: 80%;
+
+	}
+}
+
 
 	

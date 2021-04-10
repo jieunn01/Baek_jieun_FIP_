@@ -18,5 +18,14 @@
 	let membershipPlans = document.querySelectorAll(".membershipPlans");
 
 
+const submitBtn = document.querySelector('#submit-btn'),
+form = document.querySelector('.submit-form');
+
+if (submitBtn) {
+  submitBtn.addEventListener('click', () => {
+     form.submit()
+  })
+}
+
 
 })();
