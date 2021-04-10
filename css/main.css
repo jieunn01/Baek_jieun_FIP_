@@ -674,6 +674,7 @@ a
 
 	.titleHeader
 	{
+		font-size: 20px;
 		text-align: center;
 		margin: 0 auto;
 		margin-top: 30px;
@@ -908,7 +909,139 @@ input
 /*adverts page*/
 
 
+#promotionCon
+{
+	margin-top: 20px;
+	text-align: center;
+}
 
 
+#iceBear p
+{
+	padding: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#promoPics
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+
+	.titleHeader
+	{
+		display: block;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: #2c2b7b;
+	}
+
+	#iceBear{
+		display: flex;
+		flex-direction: row-reverse;
+		margin-top: 20px;
+	}
+
+	#iceBear p
+	{
+		width: 333px;
+		margin: 0 auto;
+		font-size: 16px;
+		line-height: 26px;
+
+	}
+
+	#iceBear img
+	{
+		width: 292px;
+		height: 164px;
+		margin-top: 30px;
+	}
+
+	#promoPics
+	{
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	#fresh
+	{
+		width: 333px;
+		height: 376px;
+		margin-left: 30px;
+	}
+
+	#spring
+	{
+		width: 326px;
+		height: 442px;
+		margin-left: 40px;
+	}
+
+	#iced
+	{
+		width: 322px;
+		height: 249px;
+		margin-left: 30px;
+		margin-top: 60px;
+	}
+
+	#ready {
+		width: 322px;
+		height: 249px;
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+} 
+
+@media screen and (min-width: 1090px){
+
+	#iceBear
+	{
+		margin: 0 auto;
+		text-align: center;
+		align-items: center;
+	}
+
+	#iceBear img
+	{
+		margin: 0 auto;
+		width: 500px;
+		height: 281px;
+	}
+
+	#iceBear p
+	{
+		width: 500px;
+		font-size: 18px;
+		line-height: 26px;
+		margin-left: 0;
+		text-align: left;
+	}
+
+	#fresh, #iced, #ready, #spring
+	{
+		width: 35%;
+		height: 35%;
+	}
+
+	#promoPics
+	{
+		margin-top: 30px;
+	}
+
+	#fresh, #ready
+	{
+		margin-left: 15%;
+	}
+}
 
 	
