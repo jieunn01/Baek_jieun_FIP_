@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width-device-width">
+		<title>BLUESTEEL BEER</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+		<!-- Reset first, order matters -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1 class="hidden">Bluesteel beer</h1>
+		<div id="container">
+			<header id="mainHeader">
+        	<nav id="mainNav">
+          		<h2 class="hidden">main navigation</h2>
+         		<button id="button"></button>
+          		<div id="burgerCon">
+            		<ul id="burgerMenu">
+             		 <li><a href="index.html">HOME</a></li>
+             		 <li><a href="aboutus.html">ABOUT US</a></li>
+             		 <li><a href="products.html">PRODUCTS</a></li>
+             		 <li><a href="adverts.html">ADVERTS</a></li>
+             		 <li><a href="contacts.html">CONTACT US</a></li>
+            		</ul>
+         	 	  </div>
+       	  </nav>
+         <div id="logoCon">
+              <a href="index.html"><img src="images/nav_logo.svg" alt="main logo" id="logo"></a>
+          </div>
+      </header>
+      
+      <section class="titleHeader">
+        <h2>Contacts</h2>
+      </section>
+      
+      <div id="contactCon">
+        <section id="messageCon">
+          <h2>Send a message</h2>
+          <p>Thank you for your interest. If you have any questions or concerns about the product, don’t hesitate to send us a message anytime. We welcome all questions. Our service team will respond within 24 business days.</p>
+
+          <form action="index.html" method="post" class="submit-form">
+            <br>
+
+            <label for="name" class="label2">Name</label><br>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="phone"class="label2">Phone number</label><br>
+            <input type="phone number" id="phone" name="number">
+            <br>
+            <label for="email"class="label2">E-mail address</label><br>
+            <input type="email" id="email-address" name="email">
+            <br>
+            <label for="message"class="label2">Message</label><br>
+            <input type="message" id="message" name="message" placeholder="message here">
+
+            <label for="area" id="select">Select location</label>
+             <select id="area" name="location">
+              <option value="toronto">Toronto</option>
+              <option value="vancouver">Vancouver</option>
+              <option value="calgary">Calgary</option>
+              </select>
+            <button type="submit" id="submit-btn">Submit</button>
+           </form>
+
+          
+        </section>
+
+        <section id="contactInfo">
+          <h2>Contact Info</h2>
+
+          <img src="images/call-center.png" alt="call center mobile image" id="call">
+          <p>Service Team<br>029-917-2837<br>Monday-Friday 10:00AM-6:00PM (Launch time: 1:00-2:00PM)<br><br>Office Address<br>315 St Germain Ave Toronto ON M5M 1W4(Toronto ,Ontario)</p>
+          <img src="images/map.jpg" alt="map image" id="map">
+          <p>Social Media</p>
+          <div id="iconCon2">
+            <img src="images/twlogo.png" alt="twitter logo" id="twlogo">
+            <img src="images/fblogo.png" alt="facebook logo" id="fblogo">
+            <img src="images/instalogo.png" alt="instagram logo"id="instalogo">
+            <img src="images/sharelogo.png" alt="share logo" id="sharelogo">
+          </div>
+        </section>  
+      </div>
+      <footer id="mainFooter">
+        <section>
+          <h2 class="hidden">main footer</h2>
+          <div id="iconCon">
+            <img src="images/twlogo.png" alt="twitter logo" id="twlogo">
+            <img src="images/fblogo.png" alt="facebook logo" id="fblogo">
+            <img src="images/instalogo.png" alt="instagram logo"id="instalogo">
+            <img src="images/sharelogo.png" alt="share logo" id="sharelogo">
+          </div>
+
+          <p>Service Team <br> 029-917-2837 <br>Mon-Fri 10:00AM-6:00PM </p>
+          <h5>Enjoy Responsibly. @Bluesteel beer, all rights reserved. </h5>
+        </section>
+      </footer>
+
+  </div>
+    <!-- This is where the content goes -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

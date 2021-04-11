@@ -24,8 +24,8 @@
     font-style: normal;
 
 }
-/*font-family: 'Abril Fatface', Helvetica, sans-serif;*/
-img, embed, object, video 
+
+img, embed, object, video
 {
   max-width: 100%; 
 }
@@ -194,6 +194,7 @@ a
 	font-size: 12px;
 	line-height: 14px;
 	margin: 0 30px 0 30px;
+	color: #3c3b3b;
 }
 
 #welcomepara p:after {
@@ -203,17 +204,22 @@ a
   color: #2c2b7b;
 }
 
-.ask
+.ask1
 {
 	margin-top: 23px;
 }
 
-.ask h2
+.ask1 h2
 {
 	font-family: 'Abril Fatface', Helvetica, sans-serif;
 	font-size: 15px;
 	text-align: center;
 	line-height: 20px;
+}
+
+.ask2
+{
+	display: none;
 }
 
 #guideCon
@@ -249,12 +255,20 @@ a
   	margin-right: auto;
   	padding: 10px 10px 10px 10px;
   	border-radius: 5px;
+  	color: #3c3b3b;
+
 }
 
-#brandBox, #advertsBox, #productsBox, #contactsBox
+.parabox p
+{
+	margin-top: 20px;
+	line-height: 17px;
+}
+
+#brandBox, #advertsBox, #productsBox, #contactsBox,
 {
 	height: 25px;
-	margin-bottom: 20px;
+
 }
 
 #brandBox, #advertsBox, #productsBox, #contactsBox h2
@@ -262,6 +276,11 @@ a
 	font-family: 'Abril Fatface', Helvetica, sans-serif;
 	font-size: 20px;
 	color: #e5891a;
+}
+
+.Hsection, .Hcon, .Up-layer, .Wrapper,
+{
+	display: none;
 }
 
 #mainFooter
@@ -407,7 +426,7 @@ a
 	 	line-height: 21px;
 	}
 
-	.ask h2
+	.ask1 h2
 	{
 		font-size: 19px;
 		line-height: 23px;
@@ -439,8 +458,9 @@ a
 	{
 		font-size: 14px;
 		line-height: 18px;
+		margin-top: 10px;
 	}
-	#brandBox, #advertsBox, #productsBox, #contactsBox
+	#brandBox, #advertsBox, #productsBox, #contactsBox,
 	{
 		font-size: 20px;
 		margin-bottom: 10px;
@@ -506,16 +526,18 @@ a
 	#desktop-content h2
 	{
 		display: block;
+		line-height: 35px;
 		color: #fff;
 		font-family: 'Abril Fatface', Helvetica, sans-serif;
-		font-size: 33px;
+		font-size: 30px;
 	}
 
 	#desktop-content p
 	{
 		display: block;
 		margin-left: 28px;
-		line-height: 21px;
+		line-height: 26px;
+		margin-top: 20px;
 		width: 85%;
 		font-size: 16px;
 		color: #fff;
@@ -526,14 +548,16 @@ a
 		display: none;
 	}
 
-	.ask h2
+	.ask1 h2
 	{
 		font-size: 25px;
 		line-height: 30px;
 	}
+
 	#guideCon
 	{
 		margin:  50px;
+		margin-top: 20px;
 /*		justify-content: space-around;*/
 	}
 	.guideBox 
@@ -551,6 +575,7 @@ a
 	{
 		font-size: 18px;
 		line-height: 24px;
+		color: #3c3b3b;
 	}
 
 	#brandBox, #advertsBox, #productsBox, #contactsBox h2
@@ -585,5 +610,757 @@ a
 	#mainFooter h5
 	{
 		font-size: 12px;
+	}
+
+/*	Hotspot section open*/
+	
+	.ask2
+	{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 25px;
+		line-height: 30px;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+	}
+
+	.Up-layer {
+	  position: relative;
+	  display: block;
+	}
+
+	#indexBeer
+	{
+		display: block;
+		width: 50%;
+	}
+
+	.showing {
+		display: block;
+	  width: 50px;
+	  height: 50px;
+	  position: absolute;
+	  opacity: .5;
+	}
+
+	.showing:hover {
+	display: block;
+	  opacity: .8;
+	}
+
+	.Hsection {
+	display: block;
+	  position: absolute;
+	  margin-top: 130px;
+	  margin-left: 600px;
+	  width: 520px;
+	  padding: 40px;
+	/*  background-color: pink;*/
+	}
+
+	.Hsection{
+		display: block;
+		font-size: 20px;
+		line-height: 26px;
+		color: #3c3b3b;
+	}
+
+}
+
+
+/*-----------------------------about us page -------------------------*/
+
+.titleHeader{
+	display: none;
+}
+
+#LogoT{
+	display: none;
+}
+
+#desc-1 {
+	margin-top: 20px;
+}
+
+#desc-1 p
+{
+	padding: 20px 30px 20px 30px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #3c3b3b;
+}
+
+#desc-2 p {
+	padding: 20px 30px 20px 30px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #3c3b3b;
+}
+
+@media screen and (min-width: 768px){
+
+	.titleHeader
+	{
+		display: block;
+		font-size: 20px;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: #2c2b7b;
+	}
+
+	#LogoT{
+		margin-top: 20px;
+		display: block;
+		width: 229px;
+		margin: 0 auto;
+	}
+
+	#monks
+	{
+		display: block;
+		width: 599px;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	#desc-1 p, #desc-2 p
+	{
+		padding: 25px 85px 25px 85px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	#sketch
+	{
+		display: block;
+		width: 599px;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 1140px){
+
+	.titleHeader
+	{
+		font-size: 20px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 28px;
+		margin-bottom: 50px; 
+	}
+	#LogoT
+	{
+		width: 370px;
+	}
+	#desc-1 
+	{
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+	#desc-1 p, #desc-2 p
+	{
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	#monks
+	{
+		width: 500px;
+		height: 223px;
+		margin-right: 40px;
+	}
+
+	#desc-2
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	#sketch
+	{
+		margin-left: 40px;
+	}
+}
+
+/*-----------------------------products page -------------------------*/
+input
+{
+	height: 42px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+	border:3px solid #2c2b7b;
+	border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#buyArea
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+#products-main img, #newCon
+{
+	display: none;
+}
+
+.buyCon
+{
+	width: 221px;
+/*	height: 344px;*/
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.buyCon img
+{
+	display: block;
+	width: 80%;
+	height: 69%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+.buyCon h2, h3
+{
+	font-size: 20px;
+	font-family: 'Abril Fatface', Helvetica, sans-serif;
+	line-height: 30px;
+}
+
+.buyCon h3
+{
+	color: #e5891a;
+}
+
+#buttons
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.buyButton
+{
+	display: block;
+	width: 100px;
+	height: 42px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #2c2b7b;
+	color: #fff;
+	border-style: none;
+}
+
+
+.buyCon p
+{
+	display: none;
+}
+
+@media screen and (min-width: 500px){
+
+	.buyCon p
+	{
+		display: block;
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 26px;
+		color: #3c3b3b;
+	}
+
+	.buyCon img
+	{
+		width: 60%;
+		height: 38%;
+	}
+}
+
+@media screen and (min-width: 1140px){
+	#products-main img, #newCon
+	{
+		display: block;
+	}
+
+	#products-main 
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#products-main img
+	{
+		width: 280px;
+		height: 336px;
+		margin-left: 90px;
+	}
+
+	#newCon 
+	{
+		background-color: #e5891a;
+		clip-path: polygon(28% 0, 100% 0%, 100% 100%, 24% 99%, 0 49%);
+		width: 767px;
+		height: 315px;
+		margin-top: 20px;
+		padding: 50px;
+		padding-left: 250px;
+	}
+
+	#newCon h2
+	{
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		color: #2c2b7b;
+		font-size: 44px;
+		margin-left
+	}
+
+	#newCon h3
+	{
+		font-family: 'mulisemibold', Helvetica, sans-serif;
+		font-size: 18px;
+		margin-top: 25px;
+		color: #2c2b7b;
+		line-height: 25px;
+	}
+
+	.buyCon 
+	{	
+		width: 300px;
+	}
+
+	.buyCon img
+	{
+		width: 270px;
+		height: 340px;
+	}
+
+	.buyCon h2
+	{
+		font-size: 21px;
+		margin-top: 10px;
+	}
+	.buyCon h3
+	{
+		font-size: 21px;
+		margin-top: 10px;
+	}
+
+	#buttons 
+	{
+		margin-top: 10px;
+	}
+
+}
+
+@media screen and (min-width: 1140px){
+
+	.buyCon 
+	{
+		width: 320px;
+	}
+
+	.buyCon img
+	{
+		width: 250px;
+		height: 320px;
+	}
+}
+
+/*-----------------------------adverts page -------------------------*/
+#labelInfo
+{
+	display: none;
+}
+.Label, .labelCon, .label_f, .label_b
+{
+	display: none;
+}
+
+#promotionCon
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+#iceBear p
+{
+	padding: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#promoPics
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#promotion_video
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+
+	.titleHeader
+	{
+		display: block;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color: #2c2b7b;
+	}
+
+	#iceBear{
+		display: flex;
+		flex-shrink: 1;
+		flex-direction: row-reverse;
+		margin-top: 20px;
+	}
+
+	#iceBear p
+	{
+		width: 333px;
+		margin: 0 auto;
+		font-size: 16px;
+		line-height: 26px;
+
+	}
+
+	#iceBear img
+	{
+		width: 292px;
+		height: 164px;
+		margin-top: 30px;
+	}
+
+	#promoPics
+	{
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	#fresh
+	{
+		width: 333px;
+		height: 376px;
+		margin-left: 30px;
+	}
+
+	#spring
+	{
+		width: 326px;
+		height: 442px;
+		margin-left: 40px;
+	}
+
+	#iced
+	{
+		width: 322px;
+		height: 249px;
+		margin-left: 30px;
+		margin-top: 60px;
+	}
+
+	#ready {
+		width: 322px;
+		height: 249px;
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+
+	#videoCon
+	{
+		margin: 0 auto;
+		align-items: center;
+		text-align: center;
+	}
+} 
+
+@media screen and (min-width: 1090px){
+
+	#iceBear
+	{
+		margin: 0 auto;
+		text-align: center;
+		align-items: center;
+	}
+
+	#iceBear img
+	{
+		margin: 0 auto;
+		width: 500px;
+		height: 281px;
+	}
+
+	#iceBear p
+	{
+		width: 500px;
+		font-size: 18px;
+		line-height: 26px;
+		margin-left: 0;
+		text-align: left;
+	}
+
+	#labelInfo
+	{
+		display: block;
+		display: flex;
+		flex-direction: row;
+		height: 380px;
+	}
+	 .Label {
+	 display: block;
+	  width: 500px;
+	  height: 300px;
+	  perspective: 1000px;
+	  margin: 0 auto;
+	 }
+
+	 .labelCon {
+	 display: block;
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	}
+
+	.Label:hover .labelCon {
+		transform: rotateY(180deg);
+	}
+
+	.label_f, .label_b{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.label_b{
+		display: block;
+		background-color: #2c2b7b;
+		height: 386px;
+		color: white;
+		transform: rotateY(180deg);
+	}
+
+	.label_b h1
+	{
+		color: #fff;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+		font-size: 40px;
+		margin-top: 30px;
+	}
+
+	.label_b p
+	{
+		font-family: 'mulisemibolditalic', Helvetica, sans-serif;
+		margin: 0 auto;
+		margin-top: 35px;
+		text-align: left;
+		width: 350px;
+		color: #fff;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	#fresh, #iced, #ready, #spring
+	{
+		width: 35%;
+		height: 35%;
+	}
+
+	#promoPics
+	{
+		margin-top: 30px;
+	}
+
+	#fresh, #ready
+	{
+		margin-left: 15%;
+	}
+
+	#promotion_video
+	{	
+		max-width: 800px;
+		margin-bottom: 30px;
+
+	}
+}
+
+/*-----------------------------Contact page -------------------------*/
+
+#messageCon
+{
+	display: none;
+}
+
+#contactInfo h2
+{
+	display: none;
+}
+#call
+{
+	margin-top: 20px;
+}
+#contactInfo p, #messageCon p
+{
+	display: block;
+	width: 300px;
+	margin-top: 10px;
+	padding: 10px;
+	line-height: 18px;
+	color: #3c3b3b;
+	font-family: 'mulisemibold', Helvetica, sans-serif;
+}
+
+#iconCon2
+{
+	margin-left: 10px;
+}
+
+@media screen and (min-width: 543px){
+
+	#contactInfo p, #messageCon p
+	{	
+		font-size: 14px;
+		line-height: 18px;
+		font-family: 'muliregular', Helvetica, sans-serif;
+	}
+}
+
+@media screen and (min-width: 570px){
+
+	#call
+	{	
+		display: none;
+	}
+
+	#contactCon
+	{
+		display: flex;
+		margin: 0 auto;
+		flex-direction: row;
+		margin-top: 20px;
+	}
+	#messageCon
+	{
+		display: block;
+		padding: 10px;
+	}
+
+	#contactInfo
+	{
+		padding: 10px;
+		display: block;
+	}
+	#contactInfo h2, #messageCon h2
+	{
+		display: block;
+		font-size: 16px;
+		font-family: 'Abril Fatface', Helvetica, sans-serif;
+	}
+
+	.submit-form
+	{
+		background-color: #2c2b7b;
+		width: 325px;
+		color: #fff;
+		font-size: 15px;
+		margin-top: 10px;
+		border-radius: 5px;
+		margin: 0 auto;
+	}
+
+	#name, #phone, #email-address, #message, #area
+	{
+		width: 293px;
+		height: 25px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: left;
+		border-radius: 5px;
+	}
+	.label2, #area, #select
+	{
+		margin-left: 15px;
+		margin-top: 5px;
+	}
+	#message
+	{
+		height: 143px;
+	}
+	#submit-btn
+	{
+		width: 65px;
+		height: 23px;
+		background-color: #fff;
+		color: #2c2b7b;
+		font-size: 16px;
+		border-radius: 5px;
+		border-style: none;
+		padding: 5px;
+		margin-top: 5px;
+		margin-left: 240px;
+		margin-bottom: 20px;
+		padding: 3px;
+	}
+
+	::-webkit-input-placeholder { 
+  	font-size: 14px;}
+	::-moz-placeholder { 
+  	font-size: 14px;}
+}
+
+@media screen and (min-width: 1140px){
+	#contactInfo h2, #messageCon h2
+	{
+		font-size: 23px;
+	}
+
+	#messageCon p
+	{
+		color: #3c3b3b;
+		width: 500px;
+		font-size: 18px;
+		line-height: 23px;
+		margin:20px;
+		font-family: 'muliregular', Helvetica, sans-serif;
+	}
+
+	#contactCon p
+	{
+		color: #3c3b3b;
+		font-size: 18px;
+		line-height: 23px;
+		font-family: 'muliregular', Helvetica, sans-serif;
+	}
+
+	#map
+	{
+		width: 80%;
+
 	}
 }
